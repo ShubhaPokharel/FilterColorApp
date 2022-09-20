@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5 JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Julius+Sans+One&family=Lora&family=Montserrat:wght@200;300;400&family=Noto+Sans+JP:wght@700&family=Noto+Serif+HK:wght@200&family=Playfair+Display&family=Poppins:wght@400;500&family=Quicksand:wght@300;400&family=Raleway:wght@100;200;400&family=Roboto+Slab:wght@300&family=Rozha+One&family=Urbanist:wght@200;300;400&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <center>
+        <div class="container">
+
+
+       <h1 style="font-family: 'Raleway', sans-serif; color:#647c74; font-size: 29px !important;">Apply Any Filter Color to your image!</h1>
+       <p style="font-family: 'Roboto Slab', serif;">You can use hex codes if you would like!</p>
+        <br>
+        <h4 style="color:#A39789; font-family: 'Montserrat', sans-serif;">Filter Colour:</h4>
+        <input class="form-control" id="colour_name" placeholder="Enter Filter Color">
+        <br>
+        <button onclick="filter_tint()"  style="font-family: 'Montserrat', sans-serif; background-color: #DFD6D1; border: 1px solid #DFD6D1; height: 30px; border-radius: 30px; margin-left: 10px;">Appply Filter</button>
+        
+        <button onclick="take_snapshot()"  style="font-family: 'Montserrat', sans-serif; background-color: #DFD6D1; border: 1px solid #DFD6D1; height: 30px; border-radius: 30px; margin-left: 10px;">Take Snapshot</button>
+        <button onclick="remove_filcolour()"  style="font-family: 'Montserrat', sans-serif; background-color: #DFD6D1; border: 1px solid #DFD6D1; height: 30px; border-radius: 30px; margin-left: 10px;">Remove Filter Color</button>
+    </div>
+    </center>
+</body>
+<script src="main.js"></script>
+</html>
